@@ -1,0 +1,584 @@
+Log created: 2024-12-29 00:11:04
+Type: backup
+[2024-12-29 00:11:04][notice]Start backing up.
+[2024-12-29 00:11:04][notice]server info fcgi:Off max execution time: 300 wp version:6.7.1 php version:7.4.33 db version:5.5.5 php ini:safe_mode: memory_limit:256M memory_get_usage:12.89 MB memory_get_peak_usage:13.83 MB extensions:PDO enabled curl enabled zlib enabled   is_multisite:0
+[2024-12-29 00:11:04][notice]Prepare to backup backup_db files.
+[2024-12-29 00:11:04][notice]Start exporting database.
+[2024-12-29 00:11:04][notice]Preparing to dump table sliw_wpforms_tasks_meta
+[2024-12-29 00:11:04][notice]Preparing to dump table sliw_wc_category_lookup
+[2024-12-29 00:11:04][notice]Preparing to dump table sliw_wpforms_logs
+[2024-12-29 00:11:04][notice]Preparing to dump table sliw_wc_reserved_stock
+[2024-12-29 00:11:04][notice]Preparing to dump table sliw_woocommerce_shipping_zones
+[2024-12-29 00:11:04][notice]Preparing to dump table sliw_woocommerce_shipping_zone_methods
+[2024-12-29 00:11:04][notice]Preparing to dump table sliw_actionscheduler_claims
+[2024-12-29 00:11:04][notice]Preparing to dump table sliw_woocommerce_attribute_taxonomies
+[2024-12-29 00:11:04][notice]Preparing to dump table sliw_woocommerce_log
+[2024-12-29 00:11:04][notice]Preparing to dump table sliw_wc_rate_limits
+[2024-12-29 00:11:04][notice]Preparing to dump table sliw_woocommerce_order_items
+[2024-12-29 00:11:04][notice]Preparing to dump table sliw_woocommerce_sessions
+[2024-12-29 00:11:04][notice]Preparing to dump table sliw_woocommerce_payment_tokens
+[2024-12-29 00:11:04][notice]Preparing to dump table sliw_term_relationships
+[2024-12-29 00:11:04][notice]Preparing to dump table sliw_wc_tax_rate_classes
+[2024-12-29 00:11:04][notice]Preparing to dump table sliw_wc_product_download_directories
+[2024-12-29 00:11:04][notice]Preparing to dump table sliw_links
+[2024-12-29 00:11:04][notice]Preparing to dump table sliw_e_events
+[2024-12-29 00:11:04][notice]Preparing to dump table sliw_wc_product_attributes_lookup
+[2024-12-29 00:11:04][notice]Preparing to dump table sliw_actionscheduler_groups
+[2024-12-29 00:11:04][notice]Preparing to dump table sliw_wc_webhooks
+[2024-12-29 00:11:04][notice]Preparing to dump table sliw_woocommerce_payment_tokenmeta
+[2024-12-29 00:11:04][notice]Preparing to dump table sliw_woocommerce_api_keys
+[2024-12-29 00:11:04][notice]Preparing to dump table sliw_woocommerce_order_itemmeta
+[2024-12-29 00:11:04][notice]Preparing to dump table sliw_woocommerce_shipping_zone_locations
+[2024-12-29 00:11:04][notice]Preparing to dump table sliw_woocommerce_tax_rate_locations
+[2024-12-29 00:11:04][notice]Preparing to dump table sliw_wc_orders_meta
+[2024-12-29 00:11:04][notice]Preparing to dump table sliw_wc_order_tax_lookup
+[2024-12-29 00:11:04][notice]Preparing to dump table sliw_usermeta
+[2024-12-29 00:11:05][notice]Preparing to dump table sliw_wc_download_log
+[2024-12-29 00:11:05][notice]Preparing to dump table sliw_term_taxonomy
+[2024-12-29 00:11:05][notice]Preparing to dump table sliw_termmeta
+[2024-12-29 00:11:05][notice]Preparing to dump table sliw_terms
+[2024-12-29 00:11:05][notice]Preparing to dump table sliw_wc_customer_lookup
+[2024-12-29 00:11:05][notice]Preparing to dump table sliw_commentmeta
+[2024-12-29 00:11:05][notice]Preparing to dump table sliw_wc_order_operational_data
+[2024-12-29 00:11:05][notice]Preparing to dump table sliw_wc_order_coupon_lookup
+[2024-12-29 00:11:05][notice]Preparing to dump table sliw_wc_admin_notes
+[2024-12-29 00:11:05][notice]Preparing to dump table sliw_users
+[2024-12-29 00:11:05][notice]Preparing to dump table sliw_wc_order_stats
+[2024-12-29 00:11:05][notice]Preparing to dump table sliw_wpforms_payment_meta
+[2024-12-29 00:11:05][notice]Preparing to dump table sliw_wc_order_addresses
+[2024-12-29 00:11:05][notice]Preparing to dump table sliw_woocommerce_downloadable_product_permissions
+[2024-12-29 00:11:05][notice]Preparing to dump table sliw_wc_order_product_lookup
+[2024-12-29 00:11:05][notice]Preparing to dump table sliw_woocommerce_tax_rates
+[2024-12-29 00:11:05][notice]Preparing to dump table sliw_wc_admin_note_actions
+[2024-12-29 00:11:05][notice]Preparing to dump table sliw_actionscheduler_logs
+[2024-12-29 00:11:05][notice]Preparing to dump table sliw_comments
+[2024-12-29 00:11:05][notice]Preparing to dump table sliw_wc_orders
+[2024-12-29 00:11:05][notice]Preparing to dump table sliw_wc_product_meta_lookup
+[2024-12-29 00:11:05][notice]Preparing to dump table sliw_wpforms_payments
+[2024-12-29 00:11:05][notice]Preparing to dump table sliw_actionscheduler_actions
+[2024-12-29 00:11:05][notice]Preparing to dump table sliw_options
+[2024-12-29 00:11:05][notice]Preparing to dump table sliw_posts
+[2024-12-29 00:11:05][notice]Preparing to dump table sliw_postmeta
+[2024-12-29 00:11:08][notice]Exporting database finished.
+[2024-12-29 00:11:08][notice]Start compressing database
+[2024-12-29 00:11:08][notice]Prepare to zip file. file: cleanteamtoilets.com_wpvivid-8800e8599bf55_2024-12-29-00-11_backup_db.sql
+[2024-12-29 00:11:08][notice]Adding zip files completed.cleanteamtoilets.com_wpvivid-8800e8599bf55_2024-12-29-00-11_backup_db.part001.zip, filesize: 3.44 MB
+[2024-12-29 00:11:09][notice]Compressing database completed
+[2024-12-29 00:11:09][notice]Backing up backup_db completed.
+[2024-12-29 00:11:09][notice]Prepare to backup backup_themes files.
+[2024-12-29 00:11:09][notice]Compressing zip file:cleanteamtoilets.com_wpvivid-8800e8599bf55_2024-12-29-00-11_backup_themes.part001.zip index:1875
+[2024-12-29 00:11:18][notice]Compressing zip file:cleanteamtoilets.com_wpvivid-8800e8599bf55_2024-12-29-00-11_backup_themes.part001.zip success. index:1875 file size:50.10 MB
+[2024-12-29 00:11:18][notice]Backing up backup_themes completed.
+[2024-12-29 00:11:18][notice]Prepare to backup backup_plugin files.
+[2024-12-29 00:11:19][notice]Compressing zip file:cleanteamtoilets.com_wpvivid-8800e8599bf55_2024-12-29-00-11_backup_plugin.part001.zip index:12604
+[2024-12-29 00:12:01][notice]Compressing zip file:cleanteamtoilets.com_wpvivid-8800e8599bf55_2024-12-29-00-11_backup_plugin.part001.zip success. index:12604 file size:202.61 MB
+[2024-12-29 00:12:01][notice]Compressing zip file:cleanteamtoilets.com_wpvivid-8800e8599bf55_2024-12-29-00-11_backup_plugin.part002.zip index:12783
+[2024-12-29 00:12:01][notice]Compressing zip file:cleanteamtoilets.com_wpvivid-8800e8599bf55_2024-12-29-00-11_backup_plugin.part002.zip success. index:12783 file size:1.80 MB
+[2024-12-29 00:12:01][notice]Backing up backup_plugin completed.
+[2024-12-29 00:12:01][notice]Prepare to backup backup_uploads files.
+[2024-12-29 00:12:01][notice]Compressing zip file:cleanteamtoilets.com_wpvivid-8800e8599bf55_2024-12-29-00-11_backup_uploads.part001.zip index:1263
+[2024-12-29 00:12:34][notice]Compressing zip file:cleanteamtoilets.com_wpvivid-8800e8599bf55_2024-12-29-00-11_backup_uploads.part001.zip success. index:1263 file size:167.02 MB
+[2024-12-29 00:12:34][notice]Compressing zip file:cleanteamtoilets.com_wpvivid-8800e8599bf55_2024-12-29-00-11_backup_uploads.part002.zip index:3098
+[2024-12-29 00:13:16][notice]Compressing zip file:cleanteamtoilets.com_wpvivid-8800e8599bf55_2024-12-29-00-11_backup_uploads.part002.zip success. index:3098 file size:180.68 MB
+[2024-12-29 00:13:16][notice]Backing up backup_uploads completed.
+[2024-12-29 00:13:16][notice]Prepare to backup backup_content files.
+[2024-12-29 00:13:16][notice]Compressing zip file:cleanteamtoilets.com_wpvivid-8800e8599bf55_2024-12-29-00-11_backup_content.part001.zip index:15
+[2024-12-29 00:13:16][notice]Compressing zip file:cleanteamtoilets.com_wpvivid-8800e8599bf55_2024-12-29-00-11_backup_content.part001.zip success. index:15 file size:120.27 KB
+[2024-12-29 00:13:16][notice]Backing up backup_content completed.
+[2024-12-29 00:13:16][notice]Prepare to backup backup_core files.
+[2024-12-29 00:13:17][notice]Compressing zip file:cleanteamtoilets.com_wpvivid-8800e8599bf55_2024-12-29-00-11_backup_core.part001.zip index:2852
+[2024-12-29 00:13:28][notice]Compressing zip file:cleanteamtoilets.com_wpvivid-8800e8599bf55_2024-12-29-00-11_backup_core.part001.zip success. index:2852 file size:58.16 MB
+[2024-12-29 00:13:28][notice]Backing up backup_core completed.
+[2024-12-29 00:13:28][notice]Prepare to backup backup_merge files.
+[2024-12-29 00:13:28][notice]Prepare to zip file. file: cleanteamtoilets.com_wpvivid-8800e8599bf55_2024-12-29-00-11_backup_db.zip
+[2024-12-29 00:13:28][notice]Adding zip files completed.cleanteamtoilets.com_wpvivid-8800e8599bf55_2024-12-29-00-11_backup_all.part001.zip, filesize: 3.44 MB
+[2024-12-29 00:13:28][notice]Prepare to zip file. file: cleanteamtoilets.com_wpvivid-8800e8599bf55_2024-12-29-00-11_backup_themes.zip
+[2024-12-29 00:13:39][notice]Adding zip files completed.cleanteamtoilets.com_wpvivid-8800e8599bf55_2024-12-29-00-11_backup_all.part001.zip, filesize: 30.40 MB
+[2024-12-29 00:13:42][notice]Prepare to zip file. file: cleanteamtoilets.com_wpvivid-8800e8599bf55_2024-12-29-00-11_backup_plugin.part001.zip
+[2024-12-29 00:14:10][notice]Adding zip files completed.cleanteamtoilets.com_wpvivid-8800e8599bf55_2024-12-29-00-11_backup_all.part002.zip, filesize: 59.86 MB
+[2024-12-29 00:14:11][notice]Prepare to zip file. file: cleanteamtoilets.com_wpvivid-8800e8599bf55_2024-12-29-00-11_backup_plugin.part002.zip
+[2024-12-29 00:14:16][notice]Adding zip files completed.cleanteamtoilets.com_wpvivid-8800e8599bf55_2024-12-29-00-11_backup_all.part002.zip, filesize: 61.65 MB
+[2024-12-29 00:14:23][notice]Prepare to zip file. file: cleanteamtoilets.com_wpvivid-8800e8599bf55_2024-12-29-00-11_backup_uploads.part001.zip
+[2024-12-29 00:15:18][notice]Adding zip files completed.cleanteamtoilets.com_wpvivid-8800e8599bf55_2024-12-29-00-11_backup_all.part003.zip, filesize: 164.42 MB
+[2024-12-29 00:15:35][notice]Prepare to zip file. file: cleanteamtoilets.com_wpvivid-8800e8599bf55_2024-12-29-00-11_backup_uploads.part002.zip
+[2024-12-29 00:16:05][error]Task timed out.
+[2024-12-29 00:48:20][notice]Start backing up.
+[2024-12-29 00:48:20][notice]server info fcgi:Off max execution time: 300 wp version:6.7.1 php version:7.4.33 db version:5.5.5 php ini:safe_mode: memory_limit:256M memory_get_usage:12.97 MB memory_get_peak_usage:13.89 MB extensions:PDO enabled curl enabled zlib enabled   is_multisite:0
+[2024-12-29 00:48:20][notice]Prepare to backup backup_merge files.
+[2024-12-29 00:48:20][notice]Prepare to zip file. file: cleanteamtoilets.com_wpvivid-8800e8599bf55_2024-12-29-00-11_backup_uploads.part002.zip
+[2024-12-29 00:48:55][notice]Adding zip files completed.cleanteamtoilets.com_wpvivid-8800e8599bf55_2024-12-29-00-11_backup_all.part004.zip, filesize: 158.96 MB
+[2024-12-29 00:48:55][notice]Prepare to zip file. file: cleanteamtoilets.com_wpvivid-8800e8599bf55_2024-12-29-00-11_backup_content.zip
+[2024-12-29 00:49:11][notice]Adding zip files completed.cleanteamtoilets.com_wpvivid-8800e8599bf55_2024-12-29-00-11_backup_all.part004.zip, filesize: 159.08 MB
+[2024-12-29 00:49:27][notice]Prepare to zip file. file: cleanteamtoilets.com_wpvivid-8800e8599bf55_2024-12-29-00-11_backup_core.zip
+[2024-12-29 00:49:36][notice]Adding zip files completed.cleanteamtoilets.com_wpvivid-8800e8599bf55_2024-12-29-00-11_backup_all.part005.zip, filesize: 13.30 MB
+[2024-12-29 00:49:37][notice]Backing up backup_merge completed.
+[2024-12-29 00:49:37][notice]files: ["\/home\/j8334no3pf5h\/public_html\/new\/wp-content\/wpvividbackups\/cleanteamtoilets.com_wpvivid-8800e8599bf55_2024-12-29-00-11_backup_all.part001.zip","\/home\/j8334no3pf5h\/public_html\/new\/wp-content\/wpvividbackups\/cleanteamtoilets.com_wpvivid-8800e8599bf55_2024-12-29-00-11_backup_all.part002.zip","\/home\/j8334no3pf5h\/public_html\/new\/wp-content\/wpvividbackups\/cleanteamtoilets.com_wpvivid-8800e8599bf55_2024-12-29-00-11_backup_all.part003.zip","\/home\/j8334no3pf5h\/public_html\/new\/wp-content\/wpvividbackups\/cleanteamtoilets.com_wpvivid-8800e8599bf55_2024-12-29-00-11_backup_all.part004.zip","\/home\/j8334no3pf5h\/public_html\/new\/wp-content\/wpvividbackups\/cleanteamtoilets.com_wpvivid-8800e8599bf55_2024-12-29-00-11_backup_all.part005.zip"]
+[2024-12-29 00:49:37][notice]Check upload folder wpvivid_backup
+[2024-12-29 00:49:38][notice]Start uploading cleanteamtoilets.com_wpvivid-8800e8599bf55_2024-12-29-00-11_backup_all.part001.zip
+[2024-12-29 00:49:38][notice]Check if the server already has the same name file.
+[2024-12-29 00:49:38][notice]Initiate a resumable upload session.
+[2024-12-29 00:49:38][notice]progress:1048576.
+[2024-12-29 00:49:39][notice]progress:2097152.
+[2024-12-29 00:49:39][notice]progress:3145728.
+[2024-12-29 00:49:39][notice]progress:4194304.
+[2024-12-29 00:49:39][notice]progress:5242880.
+[2024-12-29 00:49:39][notice]progress:6291456.
+[2024-12-29 00:49:39][notice]progress:7340032.
+[2024-12-29 00:49:39][notice]progress:8388608.
+[2024-12-29 00:49:39][notice]progress:9437184.
+[2024-12-29 00:49:39][notice]progress:10485760.
+[2024-12-29 00:49:39][notice]progress:11534336.
+[2024-12-29 00:49:39][notice]progress:12582912.
+[2024-12-29 00:49:40][notice]progress:13631488.
+[2024-12-29 00:49:40][notice]progress:14680064.
+[2024-12-29 00:49:40][notice]progress:15728640.
+[2024-12-29 00:49:40][notice]progress:16777216.
+[2024-12-29 00:49:40][notice]progress:17825792.
+[2024-12-29 00:49:40][notice]progress:18874368.
+[2024-12-29 00:49:40][notice]progress:19922944.
+[2024-12-29 00:49:40][notice]progress:20971520.
+[2024-12-29 00:49:40][notice]progress:22020096.
+[2024-12-29 00:49:40][notice]progress:23068672.
+[2024-12-29 00:49:41][notice]progress:24117248.
+[2024-12-29 00:49:41][notice]progress:25165824.
+[2024-12-29 00:49:41][notice]progress:26214400.
+[2024-12-29 00:49:41][notice]progress:27262976.
+[2024-12-29 00:49:41][notice]progress:28311552.
+[2024-12-29 00:49:41][notice]progress:29360128.
+[2024-12-29 00:49:41][notice]progress:30408704.
+[2024-12-29 00:49:41][notice]progress:31457280.
+[2024-12-29 00:49:43][notice]Uploading cleanteamtoilets.com_wpvivid-8800e8599bf55_2024-12-29-00-11_backup_all.part001.zip Total size: 30.40 MB Uploaded: 30.40 MB speed:6374.65kb/s
+[2024-12-29 00:49:43][notice]progress:31457280.
+[2024-12-29 00:49:43][notice]Finished uploading cleanteamtoilets.com_wpvivid-8800e8599bf55_2024-12-29-00-11_backup_all.part001.zip
+[2024-12-29 00:49:43][notice]Upload success.
+[2024-12-29 00:49:43][notice]Start uploading cleanteamtoilets.com_wpvivid-8800e8599bf55_2024-12-29-00-11_backup_all.part002.zip
+[2024-12-29 00:49:43][notice]Check if the server already has the same name file.
+[2024-12-29 00:49:43][notice]Initiate a resumable upload session.
+[2024-12-29 00:49:44][notice]progress:1048576.
+[2024-12-29 00:49:44][notice]progress:2097152.
+[2024-12-29 00:49:44][notice]progress:3145728.
+[2024-12-29 00:49:44][notice]progress:4194304.
+[2024-12-29 00:49:44][notice]progress:5242880.
+[2024-12-29 00:49:44][notice]progress:6291456.
+[2024-12-29 00:49:44][notice]progress:7340032.
+[2024-12-29 00:49:44][notice]progress:8388608.
+[2024-12-29 00:49:45][notice]progress:9437184.
+[2024-12-29 00:49:45][notice]progress:10485760.
+[2024-12-29 00:49:45][notice]progress:11534336.
+[2024-12-29 00:49:45][notice]progress:12582912.
+[2024-12-29 00:49:45][notice]progress:13631488.
+[2024-12-29 00:49:45][notice]progress:14680064.
+[2024-12-29 00:49:45][notice]progress:15728640.
+[2024-12-29 00:49:45][notice]progress:16777216.
+[2024-12-29 00:49:45][notice]progress:17825792.
+[2024-12-29 00:49:45][notice]progress:18874368.
+[2024-12-29 00:49:45][notice]progress:19922944.
+[2024-12-29 00:49:45][notice]progress:20971520.
+[2024-12-29 00:49:46][notice]progress:22020096.
+[2024-12-29 00:49:46][notice]progress:23068672.
+[2024-12-29 00:49:46][notice]progress:24117248.
+[2024-12-29 00:49:46][notice]progress:25165824.
+[2024-12-29 00:49:46][notice]progress:26214400.
+[2024-12-29 00:49:46][notice]progress:27262976.
+[2024-12-29 00:49:46][notice]progress:28311552.
+[2024-12-29 00:49:46][notice]progress:29360128.
+[2024-12-29 00:49:46][notice]progress:30408704.
+[2024-12-29 00:49:46][notice]progress:31457280.
+[2024-12-29 00:49:47][notice]Uploading cleanteamtoilets.com_wpvivid-8800e8599bf55_2024-12-29-00-11_backup_all.part002.zip Total size: 61.65 MB Uploaded: 31.00 MB speed:8126.46kb/s
+[2024-12-29 00:49:47][notice]progress:32505856.
+[2024-12-29 00:49:47][notice]progress:33554432.
+[2024-12-29 00:49:47][notice]progress:34603008.
+[2024-12-29 00:49:47][notice]progress:35651584.
+[2024-12-29 00:49:47][notice]progress:36700160.
+[2024-12-29 00:49:47][notice]progress:37748736.
+[2024-12-29 00:49:47][notice]progress:38797312.
+[2024-12-29 00:49:47][notice]progress:39845888.
+[2024-12-29 00:49:47][notice]progress:40894464.
+[2024-12-29 00:49:47][notice]progress:41943040.
+[2024-12-29 00:49:48][notice]progress:42991616.
+[2024-12-29 00:49:48][notice]progress:44040192.
+[2024-12-29 00:49:48][notice]progress:45088768.
+[2024-12-29 00:49:48][notice]progress:46137344.
+[2024-12-29 00:49:48][notice]progress:47185920.
+[2024-12-29 00:49:48][notice]progress:48234496.
+[2024-12-29 00:49:48][notice]progress:49283072.
+[2024-12-29 00:49:48][notice]progress:50331648.
+[2024-12-29 00:49:48][notice]progress:51380224.
+[2024-12-29 00:49:48][notice]progress:52428800.
+[2024-12-29 00:49:49][notice]progress:53477376.
+[2024-12-29 00:49:49][notice]progress:54525952.
+[2024-12-29 00:49:49][notice]progress:55574528.
+[2024-12-29 00:49:49][notice]progress:56623104.
+[2024-12-29 00:49:49][notice]progress:57671680.
+[2024-12-29 00:49:49][notice]progress:58720256.
+[2024-12-29 00:49:49][notice]progress:59768832.
+[2024-12-29 00:49:49][notice]progress:60817408.
+[2024-12-29 00:49:49][notice]progress:61865984.
+[2024-12-29 00:49:49][notice]progress:62914560.
+[2024-12-29 00:49:49][notice]progress:63963136.
+[2024-12-29 00:49:50][notice]progress:63963136.
+[2024-12-29 00:49:50][notice]Finished uploading cleanteamtoilets.com_wpvivid-8800e8599bf55_2024-12-29-00-11_backup_all.part002.zip
+[2024-12-29 00:49:50][notice]Upload success.
+[2024-12-29 00:49:50][notice]Start uploading cleanteamtoilets.com_wpvivid-8800e8599bf55_2024-12-29-00-11_backup_all.part003.zip
+[2024-12-29 00:49:50][notice]Check if the server already has the same name file.
+[2024-12-29 00:49:51][notice]Initiate a resumable upload session.
+[2024-12-29 00:49:51][notice]progress:1048576.
+[2024-12-29 00:49:51][notice]progress:2097152.
+[2024-12-29 00:49:51][notice]progress:3145728.
+[2024-12-29 00:49:51][notice]progress:4194304.
+[2024-12-29 00:49:51][notice]progress:5242880.
+[2024-12-29 00:49:51][notice]progress:6291456.
+[2024-12-29 00:49:51][notice]progress:7340032.
+[2024-12-29 00:49:52][notice]progress:8388608.
+[2024-12-29 00:49:52][notice]progress:9437184.
+[2024-12-29 00:49:52][notice]progress:10485760.
+[2024-12-29 00:49:52][notice]progress:11534336.
+[2024-12-29 00:49:52][notice]progress:12582912.
+[2024-12-29 00:49:52][notice]progress:13631488.
+[2024-12-29 00:49:52][notice]progress:14680064.
+[2024-12-29 00:49:52][notice]progress:15728640.
+[2024-12-29 00:49:52][notice]progress:16777216.
+[2024-12-29 00:49:52][notice]progress:17825792.
+[2024-12-29 00:49:52][notice]progress:18874368.
+[2024-12-29 00:49:52][notice]progress:19922944.
+[2024-12-29 00:49:52][notice]progress:20971520.
+[2024-12-29 00:49:53][notice]progress:22020096.
+[2024-12-29 00:49:53][notice]progress:23068672.
+[2024-12-29 00:49:53][notice]progress:24117248.
+[2024-12-29 00:49:53][notice]progress:25165824.
+[2024-12-29 00:49:53][notice]progress:26214400.
+[2024-12-29 00:49:53][notice]progress:27262976.
+[2024-12-29 00:49:53][notice]progress:28311552.
+[2024-12-29 00:49:53][notice]progress:29360128.
+[2024-12-29 00:49:53][notice]progress:30408704.
+[2024-12-29 00:49:53][notice]progress:31457280.
+[2024-12-29 00:49:54][notice]Uploading cleanteamtoilets.com_wpvivid-8800e8599bf55_2024-12-29-00-11_backup_all.part003.zip Total size: 164.42 MB Uploaded: 31.00 MB speed:8126.46kb/s
+[2024-12-29 00:49:54][notice]progress:32505856.
+[2024-12-29 00:49:54][notice]progress:33554432.
+[2024-12-29 00:49:54][notice]progress:34603008.
+[2024-12-29 00:49:54][notice]progress:35651584.
+[2024-12-29 00:49:54][notice]progress:36700160.
+[2024-12-29 00:49:54][notice]progress:37748736.
+[2024-12-29 00:49:54][notice]progress:38797312.
+[2024-12-29 00:49:54][notice]progress:39845888.
+[2024-12-29 00:49:54][notice]progress:40894464.
+[2024-12-29 00:49:54][notice]progress:41943040.
+[2024-12-29 00:49:55][notice]progress:42991616.
+[2024-12-29 00:49:55][notice]progress:44040192.
+[2024-12-29 00:49:55][notice]progress:45088768.
+[2024-12-29 00:49:55][notice]progress:46137344.
+[2024-12-29 00:49:55][notice]progress:47185920.
+[2024-12-29 00:49:55][notice]progress:48234496.
+[2024-12-29 00:49:55][notice]progress:49283072.
+[2024-12-29 00:49:55][notice]progress:50331648.
+[2024-12-29 00:49:55][notice]progress:51380224.
+[2024-12-29 00:49:55][notice]progress:52428800.
+[2024-12-29 00:49:56][notice]progress:53477376.
+[2024-12-29 00:49:56][notice]progress:54525952.
+[2024-12-29 00:49:56][notice]progress:55574528.
+[2024-12-29 00:49:56][notice]progress:56623104.
+[2024-12-29 00:49:56][notice]progress:57671680.
+[2024-12-29 00:49:56][notice]progress:58720256.
+[2024-12-29 00:49:56][notice]progress:59768832.
+[2024-12-29 00:49:56][notice]progress:60817408.
+[2024-12-29 00:49:56][notice]progress:61865984.
+[2024-12-29 00:49:56][notice]progress:62914560.
+[2024-12-29 00:49:57][notice]progress:63963136.
+[2024-12-29 00:49:57][notice]progress:65011712.
+[2024-12-29 00:49:57][notice]progress:66060288.
+[2024-12-29 00:49:57][notice]progress:67108864.
+[2024-12-29 00:49:57][notice]progress:68157440.
+[2024-12-29 00:49:57][notice]progress:69206016.
+[2024-12-29 00:49:57][notice]progress:70254592.
+[2024-12-29 00:49:57][notice]progress:71303168.
+[2024-12-29 00:49:57][notice]progress:72351744.
+[2024-12-29 00:49:57][notice]progress:73400320.
+[2024-12-29 00:49:58][notice]Uploading cleanteamtoilets.com_wpvivid-8800e8599bf55_2024-12-29-00-11_backup_all.part003.zip Total size: 164.42 MB Uploaded: 71.00 MB speed:10485.76kb/s
+[2024-12-29 00:49:58][notice]progress:74448896.
+[2024-12-29 00:49:58][notice]progress:75497472.
+[2024-12-29 00:49:58][notice]progress:76546048.
+[2024-12-29 00:49:58][notice]progress:77594624.
+[2024-12-29 00:49:58][notice]progress:78643200.
+[2024-12-29 00:49:58][notice]progress:79691776.
+[2024-12-29 00:49:58][notice]progress:80740352.
+[2024-12-29 00:49:58][notice]progress:81788928.
+[2024-12-29 00:49:58][notice]progress:82837504.
+[2024-12-29 00:49:58][notice]progress:83886080.
+[2024-12-29 00:49:59][notice]progress:84934656.
+[2024-12-29 00:49:59][notice]progress:85983232.
+[2024-12-29 00:49:59][notice]progress:87031808.
+[2024-12-29 00:49:59][notice]progress:88080384.
+[2024-12-29 00:49:59][notice]progress:89128960.
+[2024-12-29 00:49:59][notice]progress:90177536.
+[2024-12-29 00:49:59][notice]progress:91226112.
+[2024-12-29 00:49:59][notice]progress:92274688.
+[2024-12-29 00:49:59][notice]progress:93323264.
+[2024-12-29 00:49:59][notice]progress:94371840.
+[2024-12-29 00:50:00][notice]progress:95420416.
+[2024-12-29 00:50:00][notice]progress:96468992.
+[2024-12-29 00:50:00][notice]progress:97517568.
+[2024-12-29 00:50:00][notice]progress:98566144.
+[2024-12-29 00:50:00][notice]progress:99614720.
+[2024-12-29 00:50:00][notice]progress:100663296.
+[2024-12-29 00:50:00][notice]progress:101711872.
+[2024-12-29 00:50:00][notice]progress:102760448.
+[2024-12-29 00:50:00][notice]progress:103809024.
+[2024-12-29 00:50:00][notice]progress:104857600.
+[2024-12-29 00:50:01][notice]progress:105906176.
+[2024-12-29 00:50:01][notice]progress:106954752.
+[2024-12-29 00:50:01][notice]progress:108003328.
+[2024-12-29 00:50:01][notice]progress:109051904.
+[2024-12-29 00:50:01][notice]progress:110100480.
+[2024-12-29 00:50:01][notice]progress:111149056.
+[2024-12-29 00:50:01][notice]progress:112197632.
+[2024-12-29 00:50:01][notice]progress:113246208.
+[2024-12-29 00:50:01][notice]progress:114294784.
+[2024-12-29 00:50:01][notice]progress:115343360.
+[2024-12-29 00:50:02][notice]Uploading cleanteamtoilets.com_wpvivid-8800e8599bf55_2024-12-29-00-11_backup_all.part003.zip Total size: 164.42 MB Uploaded: 111.00 MB speed:10485.76kb/s
+[2024-12-29 00:50:02][notice]progress:116391936.
+[2024-12-29 00:50:02][notice]progress:117440512.
+[2024-12-29 00:50:02][notice]progress:118489088.
+[2024-12-29 00:50:02][notice]progress:119537664.
+[2024-12-29 00:50:02][notice]progress:120586240.
+[2024-12-29 00:50:02][notice]progress:121634816.
+[2024-12-29 00:50:02][notice]progress:122683392.
+[2024-12-29 00:50:02][notice]progress:123731968.
+[2024-12-29 00:50:02][notice]progress:124780544.
+[2024-12-29 00:50:02][notice]progress:125829120.
+[2024-12-29 00:50:03][notice]progress:126877696.
+[2024-12-29 00:50:03][notice]progress:127926272.
+[2024-12-29 00:50:03][notice]progress:128974848.
+[2024-12-29 00:50:03][notice]progress:130023424.
+[2024-12-29 00:50:03][notice]progress:131072000.
+[2024-12-29 00:50:03][notice]progress:132120576.
+[2024-12-29 00:50:03][notice]progress:133169152.
+[2024-12-29 00:50:03][notice]progress:134217728.
+[2024-12-29 00:50:03][notice]progress:135266304.
+[2024-12-29 00:50:03][notice]progress:136314880.
+[2024-12-29 00:50:04][notice]progress:137363456.
+[2024-12-29 00:50:04][notice]progress:138412032.
+[2024-12-29 00:50:04][notice]progress:139460608.
+[2024-12-29 00:50:04][notice]progress:140509184.
+[2024-12-29 00:50:04][notice]progress:141557760.
+[2024-12-29 00:50:04][notice]progress:142606336.
+[2024-12-29 00:50:04][notice]progress:143654912.
+[2024-12-29 00:50:04][notice]progress:144703488.
+[2024-12-29 00:50:04][notice]progress:145752064.
+[2024-12-29 00:50:04][notice]progress:146800640.
+[2024-12-29 00:50:05][notice]progress:147849216.
+[2024-12-29 00:50:05][notice]progress:148897792.
+[2024-12-29 00:50:05][notice]progress:149946368.
+[2024-12-29 00:50:05][notice]progress:150994944.
+[2024-12-29 00:50:05][notice]progress:152043520.
+[2024-12-29 00:50:05][notice]progress:153092096.
+[2024-12-29 00:50:05][notice]progress:154140672.
+[2024-12-29 00:50:05][notice]progress:155189248.
+[2024-12-29 00:50:05][notice]progress:156237824.
+[2024-12-29 00:50:05][notice]progress:157286400.
+[2024-12-29 00:50:06][notice]Uploading cleanteamtoilets.com_wpvivid-8800e8599bf55_2024-12-29-00-11_backup_all.part003.zip Total size: 164.42 MB Uploaded: 151.00 MB speed:10485.76kb/s
+[2024-12-29 00:50:06][notice]progress:158334976.
+[2024-12-29 00:50:06][notice]progress:159383552.
+[2024-12-29 00:50:06][notice]progress:160432128.
+[2024-12-29 00:50:06][notice]progress:161480704.
+[2024-12-29 00:50:06][notice]progress:162529280.
+[2024-12-29 00:50:06][notice]progress:163577856.
+[2024-12-29 00:50:06][notice]progress:164626432.
+[2024-12-29 00:50:06][notice]progress:165675008.
+[2024-12-29 00:50:06][notice]progress:166723584.
+[2024-12-29 00:50:06][notice]progress:167772160.
+[2024-12-29 00:50:06][notice]progress:168820736.
+[2024-12-29 00:50:07][notice]progress:169869312.
+[2024-12-29 00:50:07][notice]progress:170917888.
+[2024-12-29 00:50:07][notice]progress:171966464.
+[2024-12-29 00:50:08][notice]progress:171966464.
+[2024-12-29 00:50:08][notice]Finished uploading cleanteamtoilets.com_wpvivid-8800e8599bf55_2024-12-29-00-11_backup_all.part003.zip
+[2024-12-29 00:50:08][notice]Upload success.
+[2024-12-29 00:50:08][notice]Start uploading cleanteamtoilets.com_wpvivid-8800e8599bf55_2024-12-29-00-11_backup_all.part004.zip
+[2024-12-29 00:50:08][notice]Check if the server already has the same name file.
+[2024-12-29 00:50:08][notice]Initiate a resumable upload session.
+[2024-12-29 00:50:09][notice]progress:1048576.
+[2024-12-29 00:50:09][notice]progress:2097152.
+[2024-12-29 00:50:09][notice]progress:3145728.
+[2024-12-29 00:50:09][notice]progress:4194304.
+[2024-12-29 00:50:09][notice]progress:5242880.
+[2024-12-29 00:50:09][notice]progress:6291456.
+[2024-12-29 00:50:09][notice]progress:7340032.
+[2024-12-29 00:50:09][notice]progress:8388608.
+[2024-12-29 00:50:09][notice]progress:9437184.
+[2024-12-29 00:50:09][notice]progress:10485760.
+[2024-12-29 00:50:09][notice]progress:11534336.
+[2024-12-29 00:50:09][notice]progress:12582912.
+[2024-12-29 00:50:09][notice]progress:13631488.
+[2024-12-29 00:50:10][notice]progress:14680064.
+[2024-12-29 00:50:10][notice]progress:15728640.
+[2024-12-29 00:50:10][notice]progress:16777216.
+[2024-12-29 00:50:10][notice]progress:17825792.
+[2024-12-29 00:50:10][notice]progress:18874368.
+[2024-12-29 00:50:10][notice]progress:19922944.
+[2024-12-29 00:50:10][notice]progress:20971520.
+[2024-12-29 00:50:10][notice]progress:22020096.
+[2024-12-29 00:50:10][notice]progress:23068672.
+[2024-12-29 00:50:10][notice]progress:24117248.
+[2024-12-29 00:50:10][notice]progress:25165824.
+[2024-12-29 00:50:11][notice]progress:26214400.
+[2024-12-29 00:50:11][notice]progress:27262976.
+[2024-12-29 00:50:11][notice]progress:28311552.
+[2024-12-29 00:50:11][notice]progress:29360128.
+[2024-12-29 00:50:11][notice]progress:30408704.
+[2024-12-29 00:50:11][notice]progress:31457280.
+[2024-12-29 00:50:11][notice]progress:32505856.
+[2024-12-29 00:50:11][notice]progress:33554432.
+[2024-12-29 00:50:11][notice]progress:34603008.
+[2024-12-29 00:50:11][notice]progress:35651584.
+[2024-12-29 00:50:11][notice]progress:36700160.
+[2024-12-29 00:50:12][notice]Uploading cleanteamtoilets.com_wpvivid-8800e8599bf55_2024-12-29-00-11_backup_all.part004.zip Total size: 159.08 MB Uploaded: 36.00 MB speed:9437.18kb/s
+[2024-12-29 00:50:12][notice]progress:37748736.
+[2024-12-29 00:50:12][notice]progress:38797312.
+[2024-12-29 00:50:12][notice]progress:39845888.
+[2024-12-29 00:50:12][notice]progress:40894464.
+[2024-12-29 00:50:12][notice]progress:41943040.
+[2024-12-29 00:50:12][notice]progress:42991616.
+[2024-12-29 00:50:12][notice]progress:44040192.
+[2024-12-29 00:50:12][notice]progress:45088768.
+[2024-12-29 00:50:12][notice]progress:46137344.
+[2024-12-29 00:50:13][notice]progress:47185920.
+[2024-12-29 00:50:13][notice]progress:48234496.
+[2024-12-29 00:50:13][notice]progress:49283072.
+[2024-12-29 00:50:13][notice]progress:50331648.
+[2024-12-29 00:50:13][notice]progress:51380224.
+[2024-12-29 00:50:13][notice]progress:52428800.
+[2024-12-29 00:50:13][notice]progress:53477376.
+[2024-12-29 00:50:13][notice]progress:54525952.
+[2024-12-29 00:50:13][notice]progress:55574528.
+[2024-12-29 00:50:13][notice]progress:56623104.
+[2024-12-29 00:50:13][notice]progress:57671680.
+[2024-12-29 00:50:14][notice]progress:58720256.
+[2024-12-29 00:50:14][notice]progress:59768832.
+[2024-12-29 00:50:14][notice]progress:60817408.
+[2024-12-29 00:50:14][notice]progress:61865984.
+[2024-12-29 00:50:14][notice]progress:62914560.
+[2024-12-29 00:50:14][notice]progress:63963136.
+[2024-12-29 00:50:14][notice]progress:65011712.
+[2024-12-29 00:50:14][notice]progress:66060288.
+[2024-12-29 00:50:14][notice]progress:67108864.
+[2024-12-29 00:50:15][notice]progress:68157440.
+[2024-12-29 00:50:15][notice]progress:69206016.
+[2024-12-29 00:50:15][notice]progress:70254592.
+[2024-12-29 00:50:15][notice]progress:71303168.
+[2024-12-29 00:50:15][notice]progress:72351744.
+[2024-12-29 00:50:15][notice]progress:73400320.
+[2024-12-29 00:50:15][notice]progress:74448896.
+[2024-12-29 00:50:15][notice]progress:75497472.
+[2024-12-29 00:50:15][notice]progress:76546048.
+[2024-12-29 00:50:15][notice]progress:77594624.
+[2024-12-29 00:50:15][notice]progress:78643200.
+[2024-12-29 00:50:16][notice]Uploading cleanteamtoilets.com_wpvivid-8800e8599bf55_2024-12-29-00-11_backup_all.part004.zip Total size: 159.08 MB Uploaded: 76.00 MB speed:10485.76kb/s
+[2024-12-29 00:50:16][notice]progress:79691776.
+[2024-12-29 00:50:16][notice]progress:80740352.
+[2024-12-29 00:50:16][notice]progress:81788928.
+[2024-12-29 00:50:16][notice]progress:82837504.
+[2024-12-29 00:50:16][notice]progress:83886080.
+[2024-12-29 00:50:16][notice]progress:84934656.
+[2024-12-29 00:50:16][notice]progress:85983232.
+[2024-12-29 00:50:16][notice]progress:87031808.
+[2024-12-29 00:50:16][notice]progress:88080384.
+[2024-12-29 00:50:16][notice]progress:89128960.
+[2024-12-29 00:50:17][notice]progress:90177536.
+[2024-12-29 00:50:17][notice]progress:91226112.
+[2024-12-29 00:50:17][notice]progress:92274688.
+[2024-12-29 00:50:17][notice]progress:93323264.
+[2024-12-29 00:50:17][notice]progress:94371840.
+[2024-12-29 00:50:17][notice]progress:95420416.
+[2024-12-29 00:50:17][notice]progress:96468992.
+[2024-12-29 00:50:17][notice]progress:97517568.
+[2024-12-29 00:50:17][notice]progress:98566144.
+[2024-12-29 00:50:17][notice]progress:99614720.
+[2024-12-29 00:50:18][notice]progress:100663296.
+[2024-12-29 00:50:18][notice]progress:101711872.
+[2024-12-29 00:50:18][notice]progress:102760448.
+[2024-12-29 00:50:18][notice]progress:103809024.
+[2024-12-29 00:50:18][notice]progress:104857600.
+[2024-12-29 00:50:18][notice]progress:105906176.
+[2024-12-29 00:50:18][notice]progress:106954752.
+[2024-12-29 00:50:18][notice]progress:108003328.
+[2024-12-29 00:50:18][notice]progress:109051904.
+[2024-12-29 00:50:19][notice]progress:110100480.
+[2024-12-29 00:50:19][notice]progress:111149056.
+[2024-12-29 00:50:19][notice]progress:112197632.
+[2024-12-29 00:50:19][notice]progress:113246208.
+[2024-12-29 00:50:19][notice]progress:114294784.
+[2024-12-29 00:50:19][notice]progress:115343360.
+[2024-12-29 00:50:19][notice]progress:116391936.
+[2024-12-29 00:50:19][notice]progress:117440512.
+[2024-12-29 00:50:19][notice]progress:118489088.
+[2024-12-29 00:50:19][notice]progress:119537664.
+[2024-12-29 00:50:19][notice]progress:120586240.
+[2024-12-29 00:50:20][notice]Uploading cleanteamtoilets.com_wpvivid-8800e8599bf55_2024-12-29-00-11_backup_all.part004.zip Total size: 159.08 MB Uploaded: 116.00 MB speed:10485.76kb/s
+[2024-12-29 00:50:20][notice]progress:121634816.
+[2024-12-29 00:50:20][notice]progress:122683392.
+[2024-12-29 00:50:20][notice]progress:123731968.
+[2024-12-29 00:50:20][notice]progress:124780544.
+[2024-12-29 00:50:20][notice]progress:125829120.
+[2024-12-29 00:50:20][notice]progress:126877696.
+[2024-12-29 00:50:20][notice]progress:127926272.
+[2024-12-29 00:50:20][notice]progress:128974848.
+[2024-12-29 00:50:20][notice]progress:130023424.
+[2024-12-29 00:50:21][notice]progress:131072000.
+[2024-12-29 00:50:21][notice]progress:132120576.
+[2024-12-29 00:50:21][notice]progress:133169152.
+[2024-12-29 00:50:21][notice]progress:134217728.
+[2024-12-29 00:50:21][notice]progress:135266304.
+[2024-12-29 00:50:21][notice]progress:136314880.
+[2024-12-29 00:50:21][notice]progress:137363456.
+[2024-12-29 00:50:21][notice]progress:138412032.
+[2024-12-29 00:50:21][notice]progress:139460608.
+[2024-12-29 00:50:21][notice]progress:140509184.
+[2024-12-29 00:50:21][notice]progress:141557760.
+[2024-12-29 00:50:22][notice]progress:142606336.
+[2024-12-29 00:50:22][notice]progress:143654912.
+[2024-12-29 00:50:22][notice]progress:144703488.
+[2024-12-29 00:50:22][notice]progress:145752064.
+[2024-12-29 00:50:22][notice]progress:146800640.
+[2024-12-29 00:50:22][notice]progress:147849216.
+[2024-12-29 00:50:22][notice]progress:148897792.
+[2024-12-29 00:50:23][notice]progress:149946368.
+[2024-12-29 00:50:23][notice]progress:150994944.
+[2024-12-29 00:50:23][notice]progress:152043520.
+[2024-12-29 00:50:23][notice]progress:153092096.
+[2024-12-29 00:50:23][notice]progress:154140672.
+[2024-12-29 00:50:23][notice]progress:155189248.
+[2024-12-29 00:50:23][notice]progress:156237824.
+[2024-12-29 00:50:23][notice]progress:157286400.
+[2024-12-29 00:50:23][notice]progress:158334976.
+[2024-12-29 00:50:23][notice]progress:159383552.
+[2024-12-29 00:50:23][notice]progress:160432128.
+[2024-12-29 00:50:23][notice]progress:161480704.
+[2024-12-29 00:50:23][notice]progress:162529280.
+[2024-12-29 00:50:23][notice]progress:163577856.
+[2024-12-29 00:50:24][notice]Uploading cleanteamtoilets.com_wpvivid-8800e8599bf55_2024-12-29-00-11_backup_all.part004.zip Total size: 159.08 MB Uploaded: 157.00 MB speed:10747.9kb/s
+[2024-12-29 00:50:24][notice]progress:164626432.
+[2024-12-29 00:50:24][notice]progress:165675008.
+[2024-12-29 00:50:24][notice]progress:166723584.
+[2024-12-29 00:50:25][notice]progress:166723584.
+[2024-12-29 00:50:25][notice]Finished uploading cleanteamtoilets.com_wpvivid-8800e8599bf55_2024-12-29-00-11_backup_all.part004.zip
+[2024-12-29 00:50:25][notice]Upload success.
+[2024-12-29 00:50:25][notice]Start uploading cleanteamtoilets.com_wpvivid-8800e8599bf55_2024-12-29-00-11_backup_all.part005.zip
+[2024-12-29 00:50:25][notice]Check if the server already has the same name file.
+[2024-12-29 00:50:25][notice]Initiate a resumable upload session.
+[2024-12-29 00:50:25][notice]progress:1048576.
+[2024-12-29 00:50:26][notice]progress:2097152.
+[2024-12-29 00:50:26][notice]progress:3145728.
+[2024-12-29 00:50:26][notice]progress:4194304.
+[2024-12-29 00:50:26][notice]progress:5242880.
+[2024-12-29 00:50:26][notice]progress:6291456.
+[2024-12-29 00:50:26][notice]progress:7340032.
+[2024-12-29 00:50:26][notice]progress:8388608.
+[2024-12-29 00:50:26][notice]progress:9437184.
+[2024-12-29 00:50:26][notice]progress:10485760.
+[2024-12-29 00:50:26][notice]progress:11534336.
+[2024-12-29 00:50:26][notice]progress:12582912.
+[2024-12-29 00:50:26][notice]progress:13631488.
+[2024-12-29 00:50:27][notice]progress:13631488.
+[2024-12-29 00:50:27][notice]Finished uploading cleanteamtoilets.com_wpvivid-8800e8599bf55_2024-12-29-00-11_backup_all.part005.zip
+[2024-12-29 00:50:27][notice]Upload success.
+[2024-12-29 00:50:27][notice]Finish upload to googledrive
